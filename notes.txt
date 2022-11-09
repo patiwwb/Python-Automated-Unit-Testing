@@ -1,0 +1,28 @@
+create venv with python 
+create src/<module_name> dir and create "__init__.py" file inside
+create tests  dir
+
+pyproject.toml #for the installation of packages of the whole project
+setup.py 
+setup.cfg # for pytest
+requirements.txt 
+
+pip install -e . 
+
+requirements_dev.txt 
+update setup.cfg
+
+pip install -r requirements_dev.txt 
+
+mypy src 
+flake8 src 
+pytest 
+
+
+pip install mypy (config file is called setup.cfg)
+mypy example.py
+
+pip install flake8
+flake8 example.py
+
+
