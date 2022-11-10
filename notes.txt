@@ -19,7 +19,7 @@ flake8 src
 pytest 
 
 
-pip install mypy (config file is called setup.cfg)
+pip install mypy
 mypy example.py
 
 pip install flake8
